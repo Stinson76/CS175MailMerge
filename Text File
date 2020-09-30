@@ -1,0 +1,22 @@
+import java.util.Scanner;
+	public class MailMerge {
+	
+	public static void main(String[] args) {
+		//initializing variable
+		Scanner abc = new Scanner(System.in);
+	    System.out.println("Dear");
+	    System.out.println("first:");
+		String first=abc.next();
+		System.out.println("last:");
+		String last=abc.next();
+		System.out.println("house:");
+		String house=abc.next();
+		System.out.println("street:");
+		String street=abc.next();
+		System.out.println("city:");
+		String city=abc.next();
+		System.out.println("Dear:"+ first+         " "+ last);
+		System.out.println("house#:"+house);
+		System.out.println("street:"+street);
+		System.out.println("city:"+city );
+		System.out.println("Verify that the information is correct");
